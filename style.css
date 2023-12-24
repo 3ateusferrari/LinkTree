@@ -1,0 +1,20 @@
+.alinharMeio {
+    text-align: center;
+}
+
+.mudarCorDeFundo {
+    background-color: aqua;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.retangulo {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: blueviolet;
+    background-color: brown;
+    text-align: center;}
