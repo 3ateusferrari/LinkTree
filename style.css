@@ -1,20 +1,30 @@
-.alinharMeio {
+h1 {
     text-align: center;
+    font-family: cursive;
+    font-weight: 200;
+    color: #F5F2D0 ;
 }
 
 .mudarCorDeFundo {
-    background-color: aqua;
+    background-color: #282823;
 }
 
 .botoes {
     text-align: center;
 }
 
-.retangulo {
-    width: 200px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    color: blueviolet;
-    background-color: brown;
-    text-align: center;}
+.blocoClicavel {
+    display: block; /* Faz o link preencher toda a largura do contêiner pai */
+    padding: 20px; /* Espaçamento interno para tornar o bloco maior */
+    margin: 10px 0; /* Margem externa para espaço entre elementos */
+    background-color: #737162; /* Cor de fundo */
+    color: #c8c5aa; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito suave ao mudar a cor de fundo */
+}
+
+.blocoClicavel:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
