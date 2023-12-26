@@ -2,11 +2,11 @@ h1 {
     text-align: center;
     font-family: cursive;
     font-weight: 200;
-    color: #F5F2D0 ;
+    color: aliceblue ;
 }
 
 .mudarCorDeFundo {
-    background-color: #282823;
+    background-color:midnightblue;
 }
 
 .botoes {
@@ -17,7 +17,7 @@ h1 {
     display: block; /* Faz o link preencher toda a largura do contêiner pai */
     padding: 20px; /* Espaçamento interno para tornar o bloco maior */
     margin: 10px 0; /* Margem externa para espaço entre elementos */
-    background-color: #737162; /* Cor de fundo */
+    background-color:steelblue; /* Cor de fundo */
     color: #c8c5aa; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     text-decoration: none; /* Remove o sublinhado do link */
@@ -26,5 +26,19 @@ h1 {
 }
 
 .blocoClicavel:hover {
-    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+    background-color:cornflowerblue; /* Cor de fundo ao passar o mouse */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+}
+
+img {
+    border-radius: 360px;
+    height: 150px;
+    width: 150px;
 }
